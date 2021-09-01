@@ -9,6 +9,7 @@ std::string AtoB(std::string &ascii)
 // Base64 to ASCII Code
 std::string BtoA(std::string &base64){
 ```
+~~By the way, I wanna to design this function via pure C~~
 
 ## Usage of HMAC_SHA256
 ```cpp
