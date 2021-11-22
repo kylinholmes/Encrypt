@@ -1,15 +1,14 @@
-# Encrypted
-A encrypted lib with c/cpp
+# Encrypt
+A encrypt lib with c/cpp
 
-
+In order to better call and pass, I design them as an  functors, by naming anonymous functions.
 ## Usage of Base64
 ```cpp
 // ASCII to Base64 Code
-std::string AtoB(std::string &ascii)
+size_t AtoB(char* ascii,  char*& res)
 // Base64 to ASCII Code
-std::string BtoA(std::string &base64){
+size_t BtoA(char* base64, char*& res)
 ```
-~~By the way, I wanna to redesign this function via pure C~~
 
 ## Usage of HMAC_SHA256
 ```cpp
