@@ -1,7 +1,7 @@
 # Encrypt
 A encrypt lib with c/cpp
 
-In order to better call and pass, I design them as an  functors, by naming anonymous functions.
+In order to better call and pass, I design them as  functors, by naming anonymous functions.
 ## Usage of Base64
 ```cpp
 // ASCII to Base64 Code
