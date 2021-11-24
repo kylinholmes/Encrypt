@@ -139,7 +139,7 @@ struct sha256result {
 	sha256result(char* res) :ptr(res) {};
 	friend std::ostream& operator<< (std::ostream& os, const sha256result& res) {
 		for (int i = 0; i < 32; i++) 
-			os << std::hex << (uint32_t)(*(res.ptr + i));
+			os << std::hex << ((uint32_t)(*(res.ptr + i)) & 0xff);
 		return os;
 	}
 };
