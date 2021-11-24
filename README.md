@@ -10,7 +10,14 @@ size_t AtoB(char* ascii,  char*& res)
 size_t BtoA(char* base64, char*& res)
 ```
 
-## Usage of HMAC_SHA256
+## Usage of SHA256
 ```cpp
-//to be continue;
+sha256result sha256(char* msg, char*& res)
+//overload operator<<
+//use cout to output
+```
+
+## Usage of HMACSHA256
+```cpp
+//to be comtinue;
 ```
