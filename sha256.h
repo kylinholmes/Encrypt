@@ -37,6 +37,7 @@ inline T ToBigEndian(T val) {
 		std::swap(res[i], res[size - 1 - i]);
 	return val;
 }
+// useless but define
 template<typename T>
 inline T ToLittleEndian(T val) {
 	if (isBigEndian())
