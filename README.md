@@ -16,6 +16,7 @@ sha256result sha256(char* msg, char*& res)
 //overload operator<<
 //use cout to output
 ```
+But there are some bugs,yet.
 
 ## Usage of HMACSHA256
 ```cpp
