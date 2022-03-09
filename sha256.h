@@ -134,6 +134,7 @@ uint32_t* MainLoop(char*& res, uint64_t len) {
 	
 	return H;
 }
+
 #include <ostream>
 struct sha256result {
 	char* ptr;
